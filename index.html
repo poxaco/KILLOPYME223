@@ -134,6 +134,7 @@
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
+          offline: false 
         }
       }).then(function (engineInitializer) {
         return engineInitializer.initializeEngine();
